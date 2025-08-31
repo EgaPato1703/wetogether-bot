@@ -1,0 +1,48 @@
+# База данных
+*.db
+*.sqlite
+*.sqlite3
+
+# Логи
+*.log
+logs/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Виртуальное окружение
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Временные файлы
+*.tmp
+*.temp
+
+# Конфигурационные файлы с секретами
+config_local.py
+.env
+
+# Медиафайлы
+uploads/
+media/
+
+# Резервные копии
+*.bak
+*.backup
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+
+
