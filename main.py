@@ -193,7 +193,7 @@ async def reg_photo(message: Message, state: FSMContext):
                 reply_markup=main_kb
             )
         else:
-        await message.answer("✅ Анкета обновлена!", reply_markup=main_kb)
+            await message.answer("✅ Анкета обновлена!", reply_markup=main_kb)
             
         await state.clear()
     except Exception as e:
@@ -239,7 +239,7 @@ async def skip_photo(message: Message, state: FSMContext):
                 reply_markup=main_kb
             )
         else:
-        await message.answer("✅ Анкета обновлена!", reply_markup=main_kb)
+            await message.answer("✅ Анкета обновлена!", reply_markup=main_kb)
             
         await state.clear()
     except Exception as e:
